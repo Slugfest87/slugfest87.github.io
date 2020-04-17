@@ -1,0 +1,152 @@
+section {
+  display: block;
+ }
+
+ * {
+  margin: 0;
+  padding: 0;
+ }
+
+ #wrapper,
+ .center,
+ .orderForm input,
+ section {
+  position: relative;
+ }
+
+ section {
+  width: 100%;
+  float: left;
+  position: relative;
+ }
+
+ body,
+ h1,
+ h2,
+ html {
+  color: #000;
+ }
+
+ html,
+ body {
+  width: 100%;
+  min-width: 1200px;
+  font: 400 14px/30px 'Tahoma', sans-serif;
+  color: black;
+  background: #EFFAFF url(../images/bg.jpg) no-repeat 50% 259px;
+  background-attachment: fixed;
+ }
+
+ a {
+  outline: 0;
+  color: #004fa4;
+ }
+
+ h1 {
+  margin: 0 0 0 99px;
+  color: black;
+  font: 400 25px/29px 'Tahoma', sans-serif;
+ }
+
+ h2 {
+  margin: 0 0 0 99px;
+  color: black;
+  font: 400 22px/27px 'Tahoma', sans-serif;
+ }
+
+ .categories {
+    padding: 53px 0 52px;
+ }
+
+ .categoriesItems {
+    margin-left: 99px;
+ }
+
+ .categoriesItems .item {
+    display: block;
+    width: 246px;
+    height: 240px;
+    float: left;
+    margin: 0 9px 9px 0;
+    background-color: white;
+    border: 1px solid #ececec;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+ }
+
+ .categoriesItems .item:hover {
+    height: 398px;
+    margin-bottom: -149px;
+    background-color: white;
+    border-color: white;
+    box-shadow: 1.5px 2.6px 10px rgba(0, 0, 2, 0.15);
+    z-index: 2;
+ }
+
+ .categoriesItems .item .image {
+    width: 100%;
+    height: 145px;
+    line-height: 145px;
+    margin: 7px 0 7px;
+ }
+
+ .categoriesItems .item .image img {
+    max-width: 200px;
+    max-height: 145px;
+    vertical-align: middle;
+ }
+
+ .categoriesItems .item .title {
+    margin: 0 15px;
+    color: #0a4588;
+    font-family: Tahoma;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+ }
+
+ .categoriesItems .item .descr {
+    display: none;
+    position: absolute;
+    left: -1px;
+    bottom: -1px;
+    width: 248px;
+    height: 161px;
+    background-color: #ebebeb;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    line-height: 161px;
+ }
+
+ .categoriesItems .item:hover .descr {
+    display: block;
+ }
+
+ .categoriesItems .item .descr p {
+    display: inline-block;
+    margin: 0 19px;
+    vertical-align: middle;
+    color: #797979;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+ }
+
+ @media (max-width: 1280px) {
+    #wrapper {
+        width: 960px;
+    }
+
+    .infoBlock {
+        display: none;
+    }
+
+    .topinfoblock {
+        display: block;
+    }
+ 
